@@ -4,6 +4,34 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { IoLogoVercel } from "react-icons/io5";
 
+// Skills Component can be defined here as well or imported if needed
+export const Skills = () => {
+  return (
+    <div>
+      <h2 className="mt-24 mb-24 text-center text-4xl font-bold underline text-cyan-600">My Skills</h2>
+      <ul>
+        <li className="text-2xl text-white font-semibold ml-16">HTML</li>
+        <div className='w-[90%] ml-16 mb-3 h-4 bg-green-600 rounded-2xl'></div>
+
+        <li className="text-2xl text-white font-semibold ml-16">CSS</li>
+        <div className='w-[70%] ml-16 mb-3 h-4 bg-blue-600 rounded-2xl'></div>
+
+        <li className="text-2xl text-white font-semibold ml-16">Java</li>
+        <div className='w-[70%] ml-16 mb-3 h-4 bg-red-600 rounded-2xl'></div>
+
+        <li className="text-2xl text-white font-semibold ml-16">TypeScript</li>
+        <div className='w-[70%] ml-16 mb-3 h-4 bg-yellow-600 rounded-2xl'></div>
+
+        <li className="text-2xl text-white font-semibold ml-16">React</li>
+        <div className='w-[50%] ml-16 mb-3 h-4 bg-purple-600 rounded-2xl'></div>
+
+        <li className="text-2xl text-white font-semibold ml-16">Next.js</li>
+        <div className='w-[50%] ml-16 mb-3 h-4 bg-teal-600 rounded-2xl'></div>
+      </ul>
+    </div>
+  );
+};
+
 const About = () => {
   return (
     <div>
@@ -53,36 +81,9 @@ const About = () => {
           </div>
         </div>
       </section>
-      <Skills/>
+      <Skills />
     </div>
   );
 };
 
 export default About;
-
-export const Skills = () => {
-  return (
-    <div>
-      <h2 className="mt-24 mb-24 text-center text-4xl font-bold underline text-cyan-600">My Skills</h2>
-      <ul>
-        <li className="text-2xl text-white font-semibold ml-16">HTML</li>
-        <div className='w-[90%] ml-16 mb-3 h-4 bg-green-600 rounded-2xl'></div>
-
-        <li className="text-2xl text-white font-semibold ml-16">CSS</li>
-        <div className='w-[70%] ml-16 mb-3 h-4 bg-blue-600 rounded-2xl'></div>
-
-        <li className="text-2xl text-white font-semibold ml-16">Java</li>
-        <div className='w-[70%] ml-16 mb-3 h-4 bg-red-600 rounded-2xl'></div>
-
-        <li className="text-2xl text-white font-semibold ml-16">TypeScript</li>
-        <div className='w-[70%] ml-16 mb-3 h-4 bg-yellow-600 rounded-2xl'></div>
-
-        <li className="text-2xl text-white font-semibold ml-16">React</li>
-        <div className='w-[50%] ml-16 mb-3 h-4 bg-purple-600 rounded-2xl'></div>
-
-        <li className="text-2xl text-white font-semibold ml-16">Next.js</li>
-        <div className='w-[50%] ml-16 mb-3 h-4 bg-teal-600 rounded-2xl'></div>
-      </ul>
-    </div>
-  );
-};
